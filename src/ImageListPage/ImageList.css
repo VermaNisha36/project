@@ -1,0 +1,22 @@
+/* styles.css or imageList.css */
+
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Adjust the gap between cards as needed */
+  }
+  
+  .image-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    width: 250px; /* Adjust the card width as needed */
+  }
+  
+  .image-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  

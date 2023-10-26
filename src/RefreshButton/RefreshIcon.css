@@ -1,0 +1,26 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.527);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* Ensure it's above other content */
+  }
+  
+  .modal {
+    background-color: rgba(255, 255, 255, 0.728);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+  }
+  
