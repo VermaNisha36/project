@@ -6,5 +6,28 @@
   
 .text {
     text-align: left;
+    justify-content: start;
+    margin: 5px;
+    font-size: 18px; /* Adjust the size as needed */
+    color: rgba(77, 76, 76, 0.902);
+    font-weight: 600;
 }
-  
+
+.companyName {
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  background-color: rgba(167, 164, 164, 0.568);
+  font-weight: 500;
+}
+
+.body {
+  background-color: rgba(241, 239, 239, 0.877);
+}
+
+.rowLoader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

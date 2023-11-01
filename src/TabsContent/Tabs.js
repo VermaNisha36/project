@@ -1,16 +1,16 @@
 import React from 'react';
-import tabToApiMap from './models/tabToApiMap';
+import  { tabNames } from '../models/tabToApiMap';
+import './Tabs.css';
 
 function Tabs({ activeTab, setActiveTab }) {
-  const tabNames = Object.keys(tabToApiMap);
-
+  console.log('Nisha');
   return (
-    <div className="tabs">
+    <div className='content-container'>
       {tabNames.map(tabName => (
         <button
           key={tabName}
           onClick={() => setActiveTab(tabName)}
-          className={activeTab === tabName ? 'active' : ''}
+          className={`tab ${activeTab === tabName ? 'active' : ''}`}
         >
           {tabName}
         </button>

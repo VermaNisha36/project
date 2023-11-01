@@ -1,0 +1,15 @@
+.rowLoader {
+    justify-content: start;
+  }
+  
+  .rowLoader p {
+    margin: 0; /* Remove margin to eliminate spacing between paragraphs */
+    padding: 5px; /* Add padding to create spacing around paragraphs */
+  }
+  
+  .space {
+    margin-left: 1px; /* Adjust the value to control the spacing */
+  }
+  
+  /* Add additional styling as needed */
+  

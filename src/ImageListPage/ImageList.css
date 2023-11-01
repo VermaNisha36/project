@@ -1,22 +1,31 @@
-/* styles.css or imageList.css */
+/* ImageList.css */
 
 .image-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px; /* Adjust the gap between cards as needed */
-  }
-  
-  .image-card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
-    margin: 8px;
-    width: 250px; /* Adjust the card width as needed */
-  }
-  
-  .image-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust the gap between image containers as needed */
+}
+
+.image-container {
+  width: 400px; /* Set the desired width for the image container */
+  height: 300px; /* Set the desired height for the image container */
+  border: 2px; /* Add a border for visual separation */
+  overflow: hidden; /* Hide overflowing image content */
+  margin: 5px; /*Add margin to separate image containers  */
+  justify-items: center;
+}
+
+.image-container img {
+  width: 300px; /* Ensure the image occupies the entire container */
+  height: 200px; /* Ensure the image occupies the entire container */
+  object-fit: cover; /* Resize the image to cover the entire container */
+  margin:  5px 10px 10px 5px; /* Add margin to separate image containers */
+}
+
+.centered-div {
+  width: 100%; /* Ensure the image occupies the entire container */
+  height: 100%; /* Ensure the image occupies the entire container */
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+}

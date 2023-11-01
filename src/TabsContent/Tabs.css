@@ -1,0 +1,19 @@
+.tab {
+    border: 1px solid rgba(68, 66, 66, 0.594);
+    background-color: rgb(255, 255, 255);
+    color: rgb(4, 0, 0);
+    margin: 2px;
+    padding: 7px 10px 7px 10px;
+    border-radius: 4px;
+  }
+  
+  .tab.active {
+    background-color: rgb(235, 48, 48);
+    color: rgb(245, 241, 241);
+  }
+
+  .content-container {
+    display: flex; /* Use flexbox to keep elements in a single row */
+    flex-wrap: nowrap; /* Prevent elements from wrapping to the next row */
+    overflow-x: auto; /* Add horizontal scroll if the screen size is too small */
+}
